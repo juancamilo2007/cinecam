@@ -1,0 +1,80 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;  
+    color: #fff;
+    background-image: url(fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  
+  /* Estilos para el título y menú */
+  
+  #titulo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #menu {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el parrafo y label */
+  
+  #parrafo {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  #label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los botones */
+  
+  #btn {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  #btn:hover {
+    background-color: #c40812;
+  }
+  
+  /* Estilos para la recomendación */
+  
+  #recomendamos {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #recomendacion {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la película recomendada */
+  
+  #pelicula {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
